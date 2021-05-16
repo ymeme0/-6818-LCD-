@@ -1,0 +1,12 @@
+新建一个文件夹haha
+1.bmp和2.bmp和3.bmp均存储在/mnt/udisk目录下，即u盘目录下。
+avi.zip解压在haha目录下
+其余图片解压在haha目录下
+
+步骤：（文件比较大，不适合rx。只能用U盘：  进入U盘目录cd /mnt/udisk   ）
+	mplayer软件中的mplayer(10.1MB)，传输到开发板的 /bin 目录
+		cp mplayer /bin
+	mp3.zip  avi.zip  传输到自己的目录。
+		cp mp3.zip avi.zip /IOT/202103/haha
+
+SecureCRT-Options-Appearance-Character encoding:UTF-8
